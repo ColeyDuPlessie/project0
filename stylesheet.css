@@ -4,7 +4,6 @@ p {
 #huge {
 	color: navy;
 	text-align: center;
-	font-size: 50px;
 }
 .centered {
 	text-align: center;
@@ -12,10 +11,26 @@ p {
 .small {
 	color: lime;
 	background-color: navy;
-	width: 18%;
+	width: 16%;
+	padding: 15px;
+}
+.list > li {
+	color: #c9ffcb;
+	background-color: #350031;
+	width: 20%;
 	padding: 3px;
 }
 input[type=submit] {
 	background-color: #c1f1ff;
 	color: #995e00;
+}
+@media screen and (min-width: 600px) {
+  div#huge {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div#huge {
+    font-size: 30px;
+  }
 }
