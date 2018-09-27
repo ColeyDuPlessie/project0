@@ -1,3 +1,21 @@
-div {
-	color=red
+p {
+	color: red;
+}
+#huge {
+	color: navy;
+	text-align: center;
+	font-size: 50px;
+}
+.centered {
+	text-align: center;
+}
+.small {
+	color: lime;
+	background-color: navy;
+	width: 18%;
+	padding: 3px;
+}
+input[type=submit] {
+	background-color: #c1f1ff;
+	color: #995e00;
 }
