@@ -23,14 +23,36 @@ p {
 input[type=submit] {
 	background-color: #c1f1ff;
 	color: #995e00;
+	font-size: 21.8px;
+	width: 25%
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 792px) {
   div#huge {
     font-size: 60px;
   }
+  input[type=submit] {
+	width: 30%
+  }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 792px) {
   div#huge {
     font-size: 30px;
   }
+  input[type=submit] {
+	width: 50%
+  }
+  .list > li {
+	font-size: 14px;
+  }
+}
+body {
+	background-color: tan;
+}
+.col-sm-4 {
+	padding: 3px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: navy;
+	background-color: gray;
+	color: #750099;
 }
