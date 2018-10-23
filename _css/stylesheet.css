@@ -11,29 +11,32 @@ p {
   text-align: center;
 }
 
-.small {
-  color: red;
-  background-color: navy;
-  width: 16%;
-  padding: 15px;
+.list {
+  font-size: 12px;
 }
 
-.list > li {
+.list li {
   color: #c9ffcb;
   background-color: #350031;
   width: 20%;
   padding: 3px;
 }
 
+#small > li {
+  color: lime;
+  background-color: navy;
+  width: 16%;
+  padding: 5px;
+}
+
 input[type=submit] {
   background-color: #c1f1ff;
   color: #995e00;
   font-size: 21.8px;
-  width: 25%;
 }
 
 @media screen and (min-width: 792px) {
-  div#huge {
+  #huge {
     font-size: 60px;
   }
   input[type=submit] {
@@ -42,14 +45,14 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 792px) {
-  div#huge {
+  #huge {
     font-size: 30px;
   }
   input[type=submit] {
     width: 50%;
   }
   .list > li {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
@@ -62,6 +65,6 @@ body {
   border-style: outset;
   border-width: 3px;
   border-color: navy;
-  background-color: gray;
-  color: white;
+  background-color: #2d2d2d;
+  color: #c1f1ff;
 }
