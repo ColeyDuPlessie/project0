@@ -1,5 +1,6 @@
+$color: red;
 p {
-	color: red;
+	color: $color;
 }
 #huge {
 	color: navy;
@@ -9,7 +10,7 @@ p {
 	text-align: center;
 }
 .small {
-	color: lime;
+	color: $color;
 	background-color: navy;
 	width: 16%;
 	padding: 15px;
