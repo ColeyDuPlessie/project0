@@ -1,5 +1,16 @@
-p {
+p, .hasPic {
   color: red;
+}
+
+.hasPic {
+  border: 20px;
+  text-align: justify;
+  text-justify: inter-character;
+  font-size: 20px;
+}
+
+img {
+  padding: 20px;
 }
 
 #huge {
@@ -11,22 +22,24 @@ p {
   text-align: center;
 }
 
-.list {
+.list, .bigList, #small > li {
   font-size: 12px;
 }
 
-.list li {
+.list li, .bigList li, #small > li li {
   color: #c9ffcb;
   background-color: #350031;
   width: 20%;
   padding: 3px;
 }
 
+.bigList {
+  font-size: 18px;
+}
+
 #small > li {
   color: lime;
   background-color: navy;
-  width: 16%;
-  padding: 5px;
 }
 
 input[type=submit] {
@@ -51,7 +64,7 @@ input[type=submit] {
   input[type=submit] {
     width: 50%;
   }
-  .list > li {
+  .list > li, .bigList > li, #small > li > li {
     font-size: 10px;
   }
 }
